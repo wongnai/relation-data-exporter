@@ -1,0 +1,19 @@
+output: /test/test2/test3/test4.sql
+default:
+  selectors: []
+  referring:
+    included: false
+    batchSize: 10
+    limit: null
+references:
+  - fk: TABLE_2.t1_id
+    pk: TABLE_1.id
+    referring:
+      included: true
+      batchSize: 100
+      limit: 1000
+tables:
+  - name: TABLE_2
+    selectors: [ "id = 5", "id = 6", "id = 5" ]
+  - name: TABLE_3
+    selectors: [ "1 = 1" ]

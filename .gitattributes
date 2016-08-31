@@ -1,0 +1,13 @@
+* text=auto
+*.java text
+*.xml text
+*.jsp text
+*.jspf text
+*.html text
+*.htm text
+*.tag text
+*.tagf text
+*.css text
+*.js text
+*.png binary
+*.jpg binary
