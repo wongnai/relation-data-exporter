@@ -2,6 +2,7 @@
 .project
 .classpath
 .gradle
+build
 target
 *.iml
 *.ipr
