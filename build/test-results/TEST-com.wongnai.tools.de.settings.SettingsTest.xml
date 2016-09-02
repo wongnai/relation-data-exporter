@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.wongnai.tools.de.settings.SettingsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-08-30T07:25:46" hostname="skrityak-tp" time="0.292">
-  <properties/>
-  <testcase name="testFromYamlAll" classname="com.wongnai.tools.de.settings.SettingsTest" time="0.288"/>
-  <testcase name="testFromYaml" classname="com.wongnai.tools.de.settings.SettingsTest" time="0.004"/>
-  <testcase name="testOutput" classname="com.wongnai.tools.de.settings.SettingsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
