@@ -28,15 +28,15 @@ target using gradle wrapper included in the project's source.
 #Usage
 The exporter is basically a spring boot command-line application. To run the program, you need java
 
-		java [JAVA_OPTS] -jar <app.jar> <command> [parameters]");
+		java [JAVA_OPTS] -jar <app.jar> <command> [parameters]
 
 There are 2 commands currently:-
 * export <config.yaml>"
-   to export data using given configuration");
+   to export data using given configuration
 * printConfig
-   to print example configuration yaml based on current database");
+   to print example configuration yaml based on current database
 
-available java options:- ");
+available java options:-
 
 * spring.datasource.url
    jdbc connection e.g. jdbc:mysql://localhost:3306/wongnai?useUnicode=true&characterEncoding=UTF-8
