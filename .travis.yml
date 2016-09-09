@@ -5,7 +5,7 @@ deploy:
   provider: releases
   api_key:
     secure: XVVCfgSE5WWDAK5XTHqEnwF8f8KDadCBsi/9nCdSAV2763fsCQHHDzxYaPW2jIYULT2KNV7BsXgjZP8MlX8s3r1sQiu3CqYvsjrNUdc34+WEKBYsfUG6TGk5BkUNfeMPk9/a/dXkTNcZGEJGcr6HcKwVp+rGmoy3nsHzeCK4cqaKjwvh6k8Y5dmfX3nGRGxw7KLiWMzOOShkFbQjjV0RJm828a6e3e13Vf55/VFmW9I0qWXoPQddjC8U6OHgDWJ3jT6g2X7N1K813GOJZthlafREa89OCMPtySrAJ7Fd1u5gDms0v1AWLTjR5EC56nOi79JXHgoiZezZzmhj9sUA7/oO3GNvlXxxO1x++rq3UJVEBjq5HqiN0KsmdNqXF09XRgRVnqalUUDu8yjb8po2mrVLiTOphNreO4q8ZYH9V2p7hjc1scbh0u1JfWKis3pZaYwHddYT6C6YwRbM4jBz51f1uFZXrU0TeeCFvXELHBqOxeO+Z3rZ0tUATZ8xcnv6IwYeXVA5iVxh9k7PgCduq2RPuTZcN2S8QF6wIloexYJ6FaKRvN5nqMup6yBTRlf62SDlSmazB+wKFTRV8DXSvoVvvmJTERbOKXd5Trv/XqGMCNG+2soKLaBQBM4QYxhaUMmoqt21jktJPrHSo4hBEHfW+zNLpPRiROchhCHbWKo=
-  file: target/data-exporter*.jar
+  file: target/data-exporter-0.1.0.jar
   on:
     repo: wongnai/relation-data-exporter
     tags: true
