@@ -20,10 +20,9 @@ It's not good idea to export all data out. Some data are too sensitive e.g. user
 transformation so that some data can be changed before saving to the files.
 
 #Build The Project
-It is written in pure Java using spring boot and JDBC. Gradle is used as  built-tool. To build the project, just execute the build
-target using gradle wrapper included in the project's source.
+It is written in pure Java using spring boot and JDBC. Maven is used as  built-tool. To build the project, just execute :-
 
-		gradlew build
+		mvn clean install
 
 #Usage
 The exporter is basically a spring boot command-line application. To run the program, you need java
@@ -49,7 +48,7 @@ available java options:-
 	 	java -Dspring.datasource.url="jdbc:mysql://localhost:3306/wongnai?useUnicode=true&characterEncoding=UTF-8 \
 			 -Dspring.datasource.username=usr \
 			 -Dspring.datasource.password=pwd \
-			 -jar de-0.1.jar export mydb.yaml;
+			 -jar target/data-exporer-0.1.0.jar export mydb.yaml;
 
 
 # Settings
