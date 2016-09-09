@@ -17,6 +17,16 @@
 		<spring.boot.version>1.4.0.RELEASE</spring.boot.version>
 		<docker.build.dir>${project.build.directory}/docker</docker.build.dir>
 	</properties>
+	<scm>
+		<url>https://github.com/wongnai/relation-data-exporter.git</url>
+	</scm>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 	<build>
 		<plugins>
 			<plugin>
